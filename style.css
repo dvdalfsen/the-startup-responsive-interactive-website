@@ -1,0 +1,43 @@
+/* RESET */
+.reset {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    object-fit: cover;
+}
+
+:root{
+ 
+    /* COLOR  */
+    --primary: #050A1A;
+    --background-color:#DADFE3;
+    --secondary-color:#AADC64;     
+    --accent-1:#5E5AFF; 
+    --accent-2:#17161C;
+    --accent-3:#B45622;
+
+
+    /* transition  */
+    --trans-ease: all 0.25s ease;
+
+    /* FONTS */
+
+    --font-family-primary: 'NBInternationalPro-Regular', sans-serif;
+
+    * {
+        box-sizing: border-box;
+    }
+}
+
+
+@font-face {
+    font-family: 'NBInternationalPro-Regular';
+    src: url('fonts/NBInternationalPro-Regular.ttf') format('truetype');
+}
+
+
+body{
+    font-family: var(--font-family-primary);
+}
+
