@@ -76,11 +76,13 @@ header{
     padding-top: 64px;
 }
 
+.card-container{
+    
+    .my-slider{
+       /* .tns-item{
+        width: 760px !important;
+       } */
 
-    .card-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         .card{
             position: relative;
 
@@ -103,5 +105,6 @@ header{
             }
         }
     }
+}
 
 
