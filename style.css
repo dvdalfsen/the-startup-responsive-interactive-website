@@ -39,10 +39,43 @@
 
 body{
     font-family: var(--font-family-primary);
+    background-color: var(--primary);
+    color: var(--background-color);
 }
 
+h1{
+    text-transform: uppercase;
+    font-size: 160px;
+    padding-bottom: 64px;
+    margin: 0px;
+}
 
-.my-slider{
+h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    padding-bottom: 64px;
+    margin: 0px;
+}
+
+h3{
+    font-size: 56px;
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+strong{
+    color: var(--secondary-color);
+}
+
+header{
+    padding-inline: 64px;
+    padding-top: 64px;
+}
+
 
     .card-container{
         display: flex;
@@ -52,9 +85,17 @@ body{
             position: relative;
 
             .info{
+                display: flex;
+                flex-direction: column;
                 bottom: 0;
                 position: absolute;
-                color: var(--background-color);
+                padding: 32px;
+                gap: 32px;
+
+                .details{
+                    display: flex;
+                    gap: 32px;
+                }
             }
 
             img{
@@ -62,5 +103,5 @@ body{
             }
         }
     }
-}
+
 
