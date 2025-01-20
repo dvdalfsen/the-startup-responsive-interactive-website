@@ -3,7 +3,8 @@
     // options
     cellAlign: 'center',  
     prevNextButtons: false,
-    pageDots: false,
+    // pageDots: false,
+    wrapAround: true,
   });
   
   // element argument can be a selector string

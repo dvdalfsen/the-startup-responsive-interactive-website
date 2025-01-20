@@ -114,10 +114,11 @@ header{
 
 .card-container{
     
-    .my-slider{
+    .main-carousel{
 
         .card{
             position: relative;
+            margin-inline: 48px;
 
             .info{
                 display: flex;
@@ -141,52 +142,39 @@ header{
 }
 
 .card-container{
+    width: auto;
 
-    .main-carousel{
-        position: relative;
 
-        .flickity-page-dots {
-            position: absolute;
-            top: -32px;
-            left: 0;
-            /* bottom: -22px; */
-        }
+    .carousel{
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
 
-        .flickity-page-dots .dot {
-            height: 4px;
-            width: 40px;
-            margin: 0;
-            border-radius: 0;
-            background-color: var(--primary);
-        }
-
-        .carousel-cell {
-            margin-right: 16px !important;
-        }
-
-        .card{
+        .card-mobile{
             position: relative;
-            margin-right: 16px;
-
-            .info{
-                display: flex;
-                flex-direction: column;
-                bottom: 0;
-                position: absolute;
-                padding: 32px;
-                gap: 32px;
-
-                .details{
+            scroll-snap-align: center;
+                margin-inline: 16px;
+    
+                .info{
                     display: flex;
+                    flex-direction: column;
+                    bottom: 0;
+                    position: absolute;
+                    padding: 32px;
                     gap: 32px;
+    
+                    .details{
+                        display: flex;
+                        gap: 32px;
+                    }
                 }
-            }
-
-            img{
-                z-index: -1;
-            }
+    
+                img{
+                    z-index: -1;
+                }
         }
     }
+    
 }
 
 
