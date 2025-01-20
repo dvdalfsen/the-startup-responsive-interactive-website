@@ -1,12 +1,9 @@
   var elem = document.querySelector('.main-carousel');
   var flkty = new Flickity( elem, {
     // options
-    cellAlign: 'center',
-    // contain: true,
+    cellAlign: 'center',  
     prevNextButtons: false,
-    draggable: true,
-    wrapAround: true,
-    autoPlay: true,
+    pageDots: false,
   });
   
   // element argument can be a selector string
