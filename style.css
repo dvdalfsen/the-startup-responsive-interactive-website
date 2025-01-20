@@ -113,12 +113,19 @@ header{
 }
 
 .card-container{
+    width: auto;
     
-    .main-carousel{
+    .carousel{
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+        padding-inline: 64px;
+        gap: 64px;
 
         .card{
             position: relative;
-            margin-inline: 48px;
+            scroll-snap-align: center;
+            /* margin-inline: 64px; */
 
             .info{
                 display: flex;
