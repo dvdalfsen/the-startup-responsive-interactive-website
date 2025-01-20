@@ -4,7 +4,7 @@
     cellAlign: 'center',
     // contain: true,
     prevNextButtons: false,
-    pageDots: false,
+    draggable: true,
     wrapAround: true,
     autoPlay: true,
   });

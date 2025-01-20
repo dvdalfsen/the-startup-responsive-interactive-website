@@ -143,6 +143,22 @@ header{
 .card-container{
 
     .main-carousel{
+        position: relative;
+
+        .flickity-page-dots {
+            position: absolute;
+            top: -32px;
+            left: 0;
+            /* bottom: -22px; */
+        }
+
+        .flickity-page-dots .dot {
+            height: 4px;
+            width: 40px;
+            margin: 0;
+            border-radius: 0;
+            background-color: var(--primary);
+        }
 
         .carousel-cell {
             margin-right: 16px !important;
