@@ -1,23 +1,17 @@
-  
-  var slider = tns({
-    container: '.my-slider',
-    items: 1,
-    controls: false,
-    nav: false,
-    // autoplay: true,
-    // autoplayButton: false,
-    // edgePadding: 50,
-    center: true,
+  var elem = document.querySelector('.main-carousel');
+  var flkty = new Flickity( elem, {
+    // options
+    cellAlign: 'center',
+    // contain: true,
+    prevNextButtons: false,
+    pageDots: false,
+    wrapAround: true,
+    autoPlay: true,
   });
-
-  var slider = tns({
-    container: '.my-slider-mobile',
-    items: 3,
-    controls: false,
-    nav: false,
-    // axis: vertical,
-    // autoplay: true,
-    // autoplayButton: false,
-    // edgePadding: 50,
-    center: true,
+  
+  // element argument can be a selector string
+  //   for an individual element
+  var flkty = new Flickity( '.main-carousel', {
+    // options
+   
   });

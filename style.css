@@ -142,15 +142,15 @@ header{
 
 .card-container{
 
-    .my-slider-mobile{
+    .main-carousel{
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        .carousel-cell {
+            margin-right: 16px !important;
+        }
 
         .card{
             position: relative;
+            margin-right: 16px;
 
             .info{
                 display: flex;
