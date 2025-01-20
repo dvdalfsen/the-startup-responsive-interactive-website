@@ -88,6 +88,10 @@ h3{
     }
 }
 
+h4{
+    
+}
+
 p{
     font-size: 10px;
     margin: 0px;
@@ -114,6 +118,7 @@ header{
 
 .card-container{
     width: auto;
+    padding-bottom: 64px;
     
     .carousel{
         display: flex;
@@ -145,6 +150,14 @@ header{
                 z-index: -1;
             }
         }
+    }
+}
+
+.qr-container{
+    display: flex;
+    padding-inline: 64px;
+    img{
+        width: 256px;
     }
 }
 
