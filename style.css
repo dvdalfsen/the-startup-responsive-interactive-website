@@ -89,7 +89,7 @@ h3{
 }
 
 h4{
-    
+    font-size: 24px;
 }
 
 p{
@@ -98,6 +98,15 @@ p{
     
     @media (min-width: 640px) {
         font-size: 20px;
+    }
+}
+
+dl{
+    font-size: 20px;
+    margin: 0px;
+
+    dd{
+        margin: 0px;
     }
 }
 
@@ -140,6 +149,7 @@ header{
                 bottom: 0;
                 position: absolute;
                 padding: 32px;
+                padding-bottom: 128px;
                 gap: 32px;
 
                 .details{
@@ -157,6 +167,9 @@ header{
 
 .qr-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
     padding-inline: 64px;
     img{
         width: 256px;
